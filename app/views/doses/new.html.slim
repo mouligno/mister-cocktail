@@ -1,0 +1,12 @@
+h1 Add a dose
+
+= simple_form_for [@cocktail, @dose], html: { class: 'form' } do |form|
+  = form.input :description
+  = form.association :ingredient
+
+  = form.submit
+
+hr
+=' link_to 'Back to the cocktail', cocktail_path(@cocktail)
+'-
+=' link_to 'Back to the cocktail list', cocktails_path()

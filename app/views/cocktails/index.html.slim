@@ -1,0 +1,8 @@
+h1 Cocktails List
+ul
+  - @cocktails.each do |cocktail|
+    li = link_to cocktail.name, cocktail_path(cocktail)
+
+hr
+=' link_to 'Add a new cocktail', new_cocktail_path
+

@@ -1,0 +1,9 @@
+h1 New Cocktails
+
+= simple_form_for @cocktail, html: { class: 'form' } do |form|
+  = form.input :name
+
+  = form.submit
+
+hr
+=' link_to 'Back to the cocktail list', cocktails_path()
