@@ -12,6 +12,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'slim'
 gem 'simple_form'
 gem 'bootstrap-sass'
+gem 'figaro'
+gem 'carrierwave'
+gem 'fog'
+gem 'mini_magick'
 
 group :production do
   gem 'rails_12factor'

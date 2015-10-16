@@ -2,7 +2,7 @@ h1 New Cocktails
 
 = simple_form_for @cocktail, html: { class: 'form' } do |form|
   = form.input :name
-
+  = form.file_field :cocktail_photo
   = form.submit
 
 hr
